@@ -1,0 +1,7 @@
+[user]
+	name = Kenichi Wakabayashi
+	email = 143363920+ktrb-kwaka@users.noreply.github.com
+[core]
+	excludesfile = /Users/kwaka1208/.gitignore_global
+	filemode = false
+	quotepath = false

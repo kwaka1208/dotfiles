@@ -1,0 +1,22 @@
+[user]
+	name = Kenichi Wakabayashi
+	email = 1939982+kwaka1208@users.noreply.github.com
+	emal = 1939982+kwaka1208@users.noreply.github.com
+[core]
+	excludesfile = /Users/kwaka1208/.gitignore_global
+	filemode = false
+	quotepath = false
+
+[includeIf "gitdir:~/GitHub-ktrb"]
+  path = ~/.gitconfig-ext
+[http]
+	postBuffer = 524288000
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[url "git@github.com:"]
+	insteadOf = https://github.com/
