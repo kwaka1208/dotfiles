@@ -7,8 +7,6 @@
 	filemode = false
 	quotepath = false
 
-[includeIf "gitdir:~/GitHub-ktrb"]
-  path = ~/.gitconfig-ext
 [http]
 	postBuffer = 524288000
 [pull]
